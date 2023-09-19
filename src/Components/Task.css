@@ -1,0 +1,109 @@
+.posts-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.posts-table th,
+.posts-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  background-color: #d3fae6;
+}
+
+.posts-table th {
+  background-color: #63a884;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #5ba37e;
+  color: #fff;
+  border: none;
+  margin: 0 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.pagination button:hover {
+  background-color: #1ccc71;
+}
+
+.create-task {
+  margin-top: 20px;
+}
+
+.create-task input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.create-task button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.create-task button:hover {
+  background-color: #1e7e34;
+}
+
+/* Task2.css */
+
+.add-button {
+  background-color: #5ba37e;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px; 
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #5ba37e;
+}
+
+.create-task {
+  display: flex;
+  align-items: center; 
+  margin-top: 20px;
+}
+
+.create-task input[type="text"] {
+  flex: 1; 
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.create-task button.add-button {
+  background-color: #46484b;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px; 
+  transition: background-color 0.3s ease;
+}
+
+.create-task button.add-button:hover {
+  background-color: #5ba37e;
+}
+
